@@ -109,16 +109,16 @@ void LCD_ShowString(unsigned char Line,unsigned char Column,char *String)
 /**
   * @brief  返回值=X的Y次方
   */
-//int LCD_Pow(int X,int Y)
-//{
-//	unsigned char i;
-//	int Result=1;
-//	for(i=0;i<Y;i++)
-//	{
-//		Result*=X;
-//	}
-//	return Result;
-//}
+int LCD_Pow(int X,int Y)
+{
+	unsigned char i;
+	int Result=1;
+	for(i=0;i<Y;i++)
+	{
+		Result*=X;
+	}
+	return Result;
+}
 
 /**
   * @brief  在LCD1602指定位置开始显示所给数字
