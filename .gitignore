@@ -1,0 +1,30 @@
+# 编译输出文件
+*.hex
+*.bin
+*.obj
+*.o
+*.d
+*.lst
+*.map
+*.asm
+*.lnp
+*.sct
+*.axf
+*.crf
+*.tra
+*.dep
+*.iex
+*.__i
+*.plg
+*.bak
+
+# Keil 工程/用户界面文件（这些是本机环境相关的，不应共享）
+*.uvgui.*
+*.uvopt
+*.uvproj
+JLinkLog.txt
+JLinkSettings.ini
+
+# 其他临时文件
+*.log
+*.tmp
